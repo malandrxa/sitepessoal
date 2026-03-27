@@ -49,7 +49,6 @@ nav ul li {
     text-align: center;
     line-height: 50px;
     text-decoration: none;
-    
 }
 a {
     text-decoration: none;
@@ -172,4 +171,70 @@ section ul li{
     list-style: none;
     border: 2px solid #17114B;
     border-radius: 10px;
+}
+form {
+
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    border: 2px solid #11454B;
+    border-radius: 10px;
+    background-color: #f0e1c5;
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    font-size: 30px;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #11454B;
+    border-radius: 5px;
+    font-size: 18px;
+}
+input[type="submit"] {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid #17114B;
+    border-radius: 5px;
+    background-color: #17114B;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+input[type="submit"]:hover {
+    background-color: #11454B;
+    border: 2px solid #000000;
+    border-radius: 7px;
+}
+textarea {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #11454B;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.insta {
+    position: flex;
+    width: 60px;
+    height: fit-content;
+    bottom: -208px;
+    left: 100px;
+}
+.instagrao {
+    position: absolute;
+    bottom: -200px;
+    background-color: #f0e1c5;
+}
+.github {
+    position: absolute;
+    bottom: -100px;
+    background-color: #f0e1c5;
 }
